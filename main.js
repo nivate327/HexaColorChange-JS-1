@@ -1,8 +1,9 @@
-
-
+// main container
 let main=document.querySelector("main");
+// button
 let changeBg=document.getElementById("changeBg");
 
+// array
 let arr=[
   {
     first:"#FFC146",
@@ -21,6 +22,7 @@ let arr=[
     second: "#8AFA06"
   }];
 
+// button click operation 
 changeBg.addEventListener("click", ()=>
 {
   let random=Math.floor(Math.random() * 5);
